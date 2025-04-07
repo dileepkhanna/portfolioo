@@ -11267,7 +11267,12 @@ p {
   opacity: 1;
   visibility: visible;
 }
-
+.project_link{
+  color: white;
+}
+.project_link:hover{
+  color:black
+}
 /* blog wrapper */
 .blog-card {
   display: -webkit-box;
