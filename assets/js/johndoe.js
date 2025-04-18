@@ -180,8 +180,8 @@ document.getElementById('form')
 
    btn.value = 'Sending...';
 
-   const serviceID = 'service_4jlnarm';
-   const templateID = 'template_89pp4zt';
+   const serviceID = 'default_service';
+   const templateID = 'template_7x5ds39';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
