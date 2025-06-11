@@ -11626,6 +11626,7 @@ pre .code {
 }
 
 .contact {
+  background-color:#343a40;
   position: relative;
   min-height: 700px;
   display: -webkit-box;
