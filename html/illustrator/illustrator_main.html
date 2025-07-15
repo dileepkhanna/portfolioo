@@ -9,34 +9,83 @@
     <!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="/portfolioo/assets/css/johndoe.css">
     <style>
+         body{
+            background-color: #343a40;
+            font-family:  sans-serif;
+        }
         .con{
-            border: 1px solid rgba(247, 113, 187, 0.31);
-            width: 300px;
-            height: 250px;
+            /* border: 1px solid rgba(255, 255, 255, 0.31); */
+            width: 320px;
+            height: 220px;
             margin-top: 20px;
             margin-left: 20px;
-            border-radius: 16px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius:20px ;
             text-align: center;
-            padding-top: 23%;
-            background: rgba(235, 160, 206, 0.29);
-            box-shadow: 20px 20px 30px rgba(238, 108, 205, 0.1);
-            backdrop-filter: blur(9.9px);
-            -webkit-backdrop-filter: blur(9.9px);
+            padding-top: 20%;
+            background: rgba(255, 255, 255, 0.29);
+            box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.05);
+           
+            /* backdrop-filter: blur(9.9px); */
+            /* -webkit-backdrop-filter: blur(9.9px); */
             
-            margin-bottom: 5%;
+            
 
+        }
+        .con:hover{
+             box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2);
+            
         }
         .main{
             display: grid;
             row-gap: 50px;
-            grid-template-columns: auto auto auto;
+          
+            grid-template-columns: auto auto auto ;
             padding: 10px;
+            
 
         }
+        @media (max-width:1000px) {
+            .main{
+                display: grid;
+                row-gap: 20px;
+                grid-template-columns:auto auto;
+                padding: 10px;
+                
+            }
+        
+  
+        }
+        @media (max-width:700px) {
+            .main{
+                 display: grid;
+                 row-gap: 10px;
+                 grid-template-columns:auto ;
+                 padding: 10px;
+                            
+             }
+        }
+        .a{
+            color: aliceblue;
+        }
+        .heading{
+            text-align: center;
+            margin-top: 30px;
+            font-size: 48px;
+            color: aliceblue;
+            
+        }
+       .u_span{
+        color: rgb(255, 255, 255);
+       }
+       .u_2{
+        color: #F85C70;
+       }
         
     </style>
 </head>
 <body>
+    <h2 class="heading"><span class="text-danger">Illustrator</span> Projects </h2>
     <div class=" text-danger main">
         <div class="content-holder con">
             

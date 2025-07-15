@@ -9,38 +9,85 @@
     <!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="/portfolioo/assets/css/johndoe.css">
     <style>
+         body{
+            background-color: #343a40;
+            font-family:  sans-serif;
+        }
         .con{
-            border: 1px solid rgba(247, 113, 187, 0.31);
-            width: 300px;
-            height: 250px;
+            /* border: 1px solid rgba(255, 255, 255, 0.31); */
+            width: 320px;
+            height: 220px;
             margin-top: 20px;
             margin-left: 20px;
-            border-radius: 16px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius:20px ;
             text-align: center;
-            padding-top: 23%;
-            background: rgba(238, 142, 206, 0.29);
-            box-shadow: 20px 20px 30px rgba(238, 108, 205, 0.1);
-            backdrop-filter: blur(9.9px);
-            -webkit-backdrop-filter: blur(9.9px);
-            margin-bottom: 5%;
+            padding-top: 20%;
+            background: rgba(255, 255, 255, 0.29);
+            box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.05);
+           
+            /* backdrop-filter: blur(9.9px); */
+            /* -webkit-backdrop-filter: blur(9.9px); */
+            
+            
 
+        }
+        .con:hover{
+             box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2);
+            
         }
         .main{
             display: grid;
             row-gap: 50px;
-            grid-template-columns: auto auto auto;
+          
+            grid-template-columns: auto auto auto ;
             padding: 10px;
+            
 
         }
-        p{
-           color:#6c757d;
+        @media (max-width:1000px) {
+            .main{
+                display: grid;
+                row-gap: 20px;
+                grid-template-columns:auto auto;
+                padding: 10px;
+                
+            }
+        
+  
         }
+        @media (max-width:700px) {
+            .main{
+                 display: grid;
+                 row-gap: 10px;
+                 grid-template-columns:auto ;
+                 padding: 10px;
+                            
+             }
+        }
+        .a{
+            color: aliceblue;
+        }
+        .heading{
+            text-align: center;
+            margin-top: 30px;
+            font-size: 48px;
+            color: aliceblue;
+            
+        }
+       .u_span{
+        color: rgb(255, 255, 255);
+       }
+       .u_2{
+        color: #F85C70;
+       }
        
 
         
     </style>
 </head>
 <body>
+    <h2 class="heading"><span class="text-danger">Figma</span> Projects </h2>
     <div class="  main">
         <div class="content-holder con">
                <a class="img-popup" href="https://www.figma.com/proto/XWtIBIzVgzANFtlOeslJZZ/Home-Page?node-id=1-2&t=f9TbuVIboupRlYTh-1&starting-point-node-id=1%3A2"> <h3>Gpay App</h3><p>By Figma</p></a>   
@@ -50,13 +97,13 @@
         </div>
         <div class=" content-holder con">
         
-                <a class="img-popup" href="/html/templates.html"> <h3>Swiggy Instamart</h3>
+                <a class="img-popup" href="/html/404.html"> <h3>Swiggy Instamart</h3>
                 <p>By Figma</p></a>       
 
         </div>
          <div class=" content-holder con">
         
-                <a class="img-popup" href="/html/mobile_screen.html"> <h3>Wireframing</h3>
+                <a class="img-popup" href="/html/404.html"> <h3>Wireframing</h3>
                 <p>By Figma</p></a>
                 
          </div>
